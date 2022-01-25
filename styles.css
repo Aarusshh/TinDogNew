@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-
+    flex-wrap: wrap;
 }
 
 h1 {
@@ -8,8 +8,8 @@ h1 {
     font-size: 3.9rem;
     font-weight:bold     ;
     color: white;
-    margin: 0 500px 20px 0;
-    width: 550px;
+    /* margin: 0 500px 20px 0; */
+    /* width: 550px; */
     line-height: 1.5;
     display: block;
 }
