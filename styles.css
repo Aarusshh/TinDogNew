@@ -6,14 +6,32 @@
 h1 {
     font-family: "poppins", sans-serif;
     font-size: 3.9rem;
-    font-weight:bold     ;
+    font-weight: bold;
     color: white;
     line-height: 1.5;
-    display: block;
+    
 }
+
+h3 {
+    font-family: "montserrat", sans-serif;
+    font-weight: 800;
+    width: max-content;
+    font-size: 1.5rem;
+
+}
+
+p {
+    color: #8f8f8f;
+    padding: 0 20%;
+    font-weight: 500;
+}
+
 
 #title {
     background-color: #FE4D68;
+     /* height: 700px; */
+    display: flex;
+    flex-wrap: wrap; 
 }
 
 .btn {
@@ -33,7 +51,7 @@ h1 {
 
 .navbar-brand {
     font-size: 2.9rem;
-    font-weight:700
+    font-weight: 700
 }
 
 .nav-link {
@@ -48,8 +66,33 @@ h1 {
 }
 
 .title-img {
-   
+
     right: 60%;
     width: 60%;
     transform: rotate(25deg);
 }
+
+/* features */
+.fbox {
+    text-align: center;
+    padding: 10% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.fas {
+    margin-bottom: 15px ;
+    color: #EF8073;
+}
+
+.fas:hover {
+    color: #FE4D68;
+}
+
+/* testimonials */
+/* #testimonials {
+    background-color: #EE8072;
+} */
