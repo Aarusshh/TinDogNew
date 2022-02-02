@@ -1,98 +1,141 @@
 * {
     box-sizing: border-box;
-    flex-wrap: wrap;
+}
+
+#title {
+    background-color: #FE4C69;
 }
 
 h1 {
-    font-family: "poppins", sans-serif;
-    font-size: 3.9rem;
-    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
     color: white;
-    line-height: 1.5;
-    
+    font-weight: 800;
+    font-size: 3.5rem;
 }
 
 h3 {
-    font-family: "montserrat", sans-serif;
-    font-weight: 800;
-    width: max-content;
-    font-size: 1.5rem;
-
+    font-family: "Poppins", sans-serif;
 }
 
-p {
-    color: #8f8f8f;
-    padding: 0 20%;
-    font-weight: 500;
+body {
+    background-color: ;
 }
 
+/* NAVBAR */
 
-#title {
-    background-color: #FE4D68;
-     /* height: 700px; */
+
+.nav-item {
     display: flex;
-    flex-wrap: wrap; 
-}
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
 
-.btn {
-    margin: 5% 3% 5% 0;
-}
-
-/* Navbar */
-.navbarp {
-    font-family: "Ubuntu", sans-serif;
-    margin-bottom: 50px;
-
-}
-
-.container-fluid {
-    padding: 4% 12%;
 }
 
 .navbar-brand {
-    font-size: 2.9rem;
-    font-weight: 700
-}
-
-.nav-link {
-    font-size: 1.2rem;
-    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2.8rem;
 
 }
 
-.nav-item {
-    display: inline-block;
-    margin: 0 15px;
+/* TITLE */
+
+.container-fluid {
+    padding: 4rem 12%;
+
 }
 
-.title-img {
+.title-row {
+    margin-top: 2.5rem;
+}
 
-    right: 60%;
+.btn-dark {
+    margin: 3rem 1.7rem 3rem 0;
+    background-color: #343A40;
+}
+
+.btn {
+    margin: 3rem 1.7rem 3rem 0;
+
+}
+
+.tin-dog {
+    transform: rotate(20deg);
     width: 60%;
-    transform: rotate(25deg);
 }
 
-/* features */
-.fbox {
-    text-align: center;
-    padding: 10% 5%;
+/* FEATURES */
+
+
+#features {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    padding: 15rem 10rem 10rem;
+}
+
+.features-info {
+    text-align: center;
+}
+
+.features-p {
+    font-family: "Montserrat thin", sans-serif;
+    color: #808080;
+    padding: 0 3rem;
+}
+
+.fab-icons {
+    color: #EF8172;
+    margin-bottom: 1rem;
+}
+
+.fab-icons:hover {
+    color: #FE4C69;
+}
+
+/* Testimonials */
+
+#testimonials {
+    background-color: #EF8172;
+    height: 750px;
+}
+
+.testimonial-content {
+    text-align: center;
     
 }
 
-.fas {
-    margin-bottom: 15px ;
-    color: #EF8073;
+.img-testimonial {
+    border-radius: 100%;
+    width: 10%;
 }
 
-.fas:hover {
-    color: #FE4D68;
+.tes-text {
+    margin-left: 25px;
+    font-size: 1.2rem;
+    color: rgb(41, 41, 41);
+    font-weight: 400;
 }
 
-/* testimonials */
-/* #testimonials {
-    background-color: #EE8072;
-} */
+.testimonial-carouselw {
+    background-color: sandybrown;
+}
+
+
+.testimonial-heading {
+    font-family: "Poppins", sans-serif;
+    padding: 8% 25% 1.5%;
+    font-size: 3.5rem;
+    color: white;
+}
+/* PRESS */
+#press {
+    background-color: #EF8172;
+}
+
+.imgs-press-div {
+    text-align: center;
+}
+
+.press-img {
+    padding: 0 3rem 5rem;
+}
