@@ -4,9 +4,10 @@
     padding: 0;
 }
 
-#title {
-    background-color: #FE4C69;
+body {
+    background-color: blanchedalmond;
 }
+
 
 h1 {
     font-family: "Montserrat", sans-serif;
@@ -23,8 +24,14 @@ h2 {
 
 h3 {
     font-family: "Poppins", sans-serif;
+    color: rgb(75, 75, 75);
 }
 
+p {
+    color: rgb(75, 75, 75);
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+}
 
 
 /* NAVBAR */
@@ -46,6 +53,11 @@ h3 {
 
 /* TITLE */
 
+#title {
+    background-color: #FE4C69;
+    position: relative;
+}
+
 .title-navbar-container {
     padding: 4rem 12%;
 
@@ -53,6 +65,10 @@ h3 {
 
 .title-row {
     margin-top: 2.5rem;
+}
+
+.title-h1 {
+    padding: 2rem 30% 0 0 ;
 }
 
 .btn-dark {
@@ -68,6 +84,8 @@ h3 {
 .tin-dog {
     transform: rotate(20deg);
     width: 60%;
+    height: auto;
+    
 }
 
 /* FEATURES */
@@ -77,10 +95,18 @@ h3 {
     display: flex;
     justify-content: center;
     padding: 15rem 10rem 10rem;
+    background-color: #fff;
+    position: relative;
 }
 
 .features-info {
     text-align: center;
+}
+
+.features-heading{
+
+    font-family: "Poppins", sans-serif;
+color: black;
 }
 
 .features-p {
@@ -107,7 +133,7 @@ h3 {
 
 .testimonial-content {
     text-align: center;
-    
+
 }
 
 .img-testimonial {
@@ -133,6 +159,7 @@ h3 {
     font-size: 3.5rem;
     color: white;
 }
+
 /* PRESS */
 #press {
     background-color: #EF8172;
@@ -147,14 +174,49 @@ h3 {
 }
 
 /* PRICING */
-.pricing-row {
-    margin: 0;
-}
 
 #pricing {
-    padding: 150px;
+    padding: 3% 12%;
 }
 
 .pricing-column {
-    margin: 3% 2%;
+    padding: 2rem;
+
 }
+
+.heading-pricing {
+    text-align: center;
+}
+
+.pricing-para {
+    color: #908080;
+}
+
+.card-header {
+    display: flex;
+    justify-content: center;
+    background-color: #ffebcd;
+    border: #363636 solid 1px;
+
+    
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffebcd;
+    border: #363636 solid 1px;
+    
+}
+
+.pricing-heading-2 {
+    font-size: 3.3rem;
+}
+
+.pricing-btn {
+    margin: 2rem;
+
+}
+
