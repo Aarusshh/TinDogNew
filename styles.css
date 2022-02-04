@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+
 }
 
 body {
@@ -178,7 +177,7 @@ p {
 /* PRICING */
 
 #pricing {
-    padding: 3% 12%;
+    padding: 8% 5% 5%;
 }
 
 .pricing-column {
@@ -222,12 +221,15 @@ p {
 
 }
 
+.pricing-btn-1-2 {
+    margin-top: 71px;
+}
 
 /* CTA */
 #cta {
     background-color: #ff4c68;
     text-align: center;
-    padding-top: 10rem;
+    /* padding: 10rem 16rem 0; */
 }
 
 .cta-h3 {
@@ -270,16 +272,22 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 100px;
 }
 
 .final-text {
     font-family: "Ubuntu", sans-serif;
-    font-size: 1rem;
+    font-size: 1.1em;
+    text-align: center;
 }
 
+.kopyright {
+    color: #7e7e7e;
+}
 
 /* RESPONSIVNESS */
 
+/* TITLE SECTION */
 @media (max-width: 1000px) and (min-width:992px) {
     .title-h1 {
         display: block;
@@ -292,6 +300,7 @@ p {
 
 }
 
+/* TITLE SECTION */
 @media (max-width: 991px) {
     #title {
         text-align: center;
@@ -307,8 +316,27 @@ p {
     }
 }
 
+/* TESTIMONIAL-TEXT */
 @media (max-width: 1024px) {
     .testimonial-heading {
-    padding: 8% 9% 1.5%;   
+        padding: 8% 9% 1.5%;
     }
+}
+
+/* CTA-PADDING */
+@media (max-width: 1024px) {                          
+    #cta {
+        padding: 5rem 0;
+    }
+
+    .cta-btn {
+        margin-bottom: 5rem;
+    }
+}
+
+/* FOOTER */
+ @media (max-width: 1062px) {
+     .final-text, .kopyright {
+         padding: 0;
+ }
 }
